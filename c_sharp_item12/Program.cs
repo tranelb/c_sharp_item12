@@ -19,7 +19,7 @@ namespace c_sharp_item12
     {
         static void Main(string[] args)
         {
-            // A. Write out three examples for each of the fundamental data types in C#.
+            // A.) Write out three examples for each of the fundamental data types in C#.
             // Booleans are true or false
             bool canVote = true;
 
@@ -53,12 +53,21 @@ namespace c_sharp_item12
             var anotherName = "Tom";
 
 
-            //b. Sketch out how a normal C# string works. Then sketch out how the StringBuilder class works.
+            // B.) Sketch out how a normal C# string works. Then sketch out how the StringBuilder class works.
+            string name = "Tranel";
 
-            //c. Sketch out how the intern pool works for strings.
+            StringBuilder sb = new StringBuilder();
+
+            // Append a string to the StringBuilder (AppendLine also adds a newline at the end)
+            sb.Append("This is the first sentence.");
+
+            // Append a formatted string
+            sb.AppendFormat("My name is {0} and I live in {1}", name, "Los Angeles");
+
+            // C.) Sketch out how the intern pool works for strings.
 
 
-            //d. Write out three examples for each of these program-defined data types in C#:
+            // D.) Write out three examples for each of these program-defined data types in C#:
             //-Array
             // Declare an array
             int[] randNumArray;
