@@ -65,7 +65,10 @@ namespace c_sharp_item12
             sb.AppendFormat("My name is {0} and I live in {1}", name, "Los Angeles");
 
             // C.) Sketch out how the intern pool works for strings.
+            string string1 = "Tranel Bland";
 
+            string string2 = "Tranel " + "Bland";
+            
 
             // D.) Write out three examples for each of these program-defined data types in C#:
             //-Array
