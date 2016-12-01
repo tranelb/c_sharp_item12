@@ -19,7 +19,6 @@ namespace c_sharp_item12
     {
         static void Main(string[] args)
         {
-
             // A. Write out three examples for each of the fundamental data types in C#.
             // Booleans are true or false
             bool canVote = true;
@@ -58,8 +57,19 @@ namespace c_sharp_item12
 
             //c. Sketch out how the intern pool works for strings.
 
+
             //d. Write out three examples for each of these program-defined data types in C#:
             //-Array
+            // Declare an array
+            int[] randNumArray;
+
+            // Declare the number of items an array can contain
+            int[] randArray = new int[5];
+
+            // Declare and initialize an array
+            int[] randArray2 = { 1, 2, 3, 4, 5 };
+
+
             //-Enumeration
             Temperature micTemp = Temperature.Low;
             Console.Write("What Temp : ");
